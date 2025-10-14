@@ -1,0 +1,43 @@
+.navbar {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(200, 222, 245);
+    color: #333;
+    padding: 1rem;
+}
+
+.navbar-left .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: none;
+}
+
+@media screen and (min-width: 575px) {
+    .navbar-left .logo { display: block;}
+}
+
+.navbar-right .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-right .nav-links li {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 575px) {
+    .navbar-right .nav-links li { font-size: 1rem;}
+}
+
+/*TODO: figure out why I can't make the screen smaller. Maybe ask dad. This is really only bonus stuff tho. */
+
+.navbar-right .nav-links a {
+    color: #333;
+    text-decoration: none;
+}
