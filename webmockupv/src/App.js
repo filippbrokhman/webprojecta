@@ -19,7 +19,11 @@ function App() {
     <NavBar></NavBar>
     <div>
       <Routes>
-        <Route path='/Home' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/AboutUs' element={<AboutUs/>}></Route>
+        <Route path='/Services' element={<Services/>}></Route>
+        <Route path='/Projects' element={<Projects/>}></Route>
+        <Route path='/ContactUs' element={<ContactUs/>}></Route>
       </Routes>
     </div>
    </>
