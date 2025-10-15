@@ -30,6 +30,35 @@
     padding-right: 1.2rem;
 }
 
+.body-text-white {
+    display: flex;
+    justify-content: center;      /* centers horizontally */
+    align-items: flex-start;      /* top-aligned, not vertically centered */
+    min-height: 60vh;             /* shorter height than full screen */
+    padding: 2rem 0;              /* small top/bottom padding */
+    background-color: aliceblue;    /* optional: gives a clean background */
+    box-sizing: border-box;
+    color: black;
+}
+
+.body-text-blue {
+    display: flex;
+    justify-content: center;      /* centers horizontally */
+    align-items: flex-start;      /* top-aligned, not vertically centered */
+    min-height: 60vh;             /* shorter height than full screen */
+    padding: 2rem 0;              /* small top/bottom padding */
+    background-color: rgb(0, 0, 148);   /* optional: gives a clean background */
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.body-content-container {
+    max-width: 800px;             /* controls line length */
+    width: 100%;
+    padding: 0 2rem;              /* whitespace on left/right */
+    text-align: center;           /* center the text itself */
+}
+
 .Media img {
     max-width: 80%;
     height: auto;
