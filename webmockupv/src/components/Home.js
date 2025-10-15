@@ -4,7 +4,7 @@ import './component.css'
 const Home = () => {
     return (
         <div>
-            <section className="body-variant-white">
+            <section className="body-variant-white" style={{paddingTop: 80}}>
                 <div className="Media">
                     <img src={require("../Images/kitchen-casement-arched.jpeg")} alt="Arched window"></img>
                 </div>
