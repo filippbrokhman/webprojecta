@@ -11,22 +11,19 @@
 }
 
 .navbar-left .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-    display: none;
-}
-
-@media screen and (min-width: 575px) {
-    .navbar-left .logo { display: block;}
+    max-width: 38%;
+    height: 10rem;
+    border-radius: 0.8rem;
+    padding-left: 1rem;
+    display: flex;
+    object-fit: contain;
 }
 
 .navbar-right .nav-links {
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-right: 4rem;
 }
 
 .navbar-right .nav-links li {

@@ -1,0 +1,12 @@
+.footer {
+  background-color: #f1f5f9;   /* light gray background */
+  color: #334155;              /* dark gray text */
+  text-align: left;
+  font-size: 0.9rem;
+  border-top: 8px solid #e2e8f0;
+  padding: 0.5rem 5rem;
+}
+
+.footer p {
+    padding-top: 8px;
+}

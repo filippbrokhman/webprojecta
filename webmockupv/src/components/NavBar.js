@@ -6,9 +6,7 @@ const NavBar=()=> {
     return (
         <div className="navbar">
             <div className="navbar-left">
-                <h1 className="logo">
-                    LogoHere
-                </h1>
+                <img className="logo" src={require("../Images/LogoTest.jpg")} alt="Logo"></img>
             </div>
             <div className="navbar-right">
                 <ul className="nav-links">

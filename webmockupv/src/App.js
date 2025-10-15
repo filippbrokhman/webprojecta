@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs/>}></Route>
       </Routes>
     </div>
+    <Footer></Footer>
    </>
   );
 }
