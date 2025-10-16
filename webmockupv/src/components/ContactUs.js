@@ -36,47 +36,43 @@ const handleSubmit = (e) => {
                         <h1> Contact Us</h1>
                         <form className="contact-form" onSubmit={handleSubmit}>
 
-                            <label>
-                                Name<span className="required">*</span>
-                            </label>
                             <input
                                 type="text"
                                 name="name"
+                                placeholder="Name*"
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
                             />
 
-                            <label>
-                                Email<span className="required">*</span>
-                            </label>
                             <input
                                 type="email"
                                 name="email"
+                                placeholder="Email*"
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
                             />
 
-                            <label>Phone</label>
                             <input
                                 type="tel"
                                 name="phone"
+                                placeholder="Phone"
                                 value={formData.phone}
                                 onChange={handleChange}
                             />
 
-                            <label>Subject</label>
                             <input
                                 type="text"
                                 name="subject"
+                                placeholder="Subject"
                                 value={formData.subject}
                                 onChange={handleChange}
                             />
 
-                            <label>Message</label>
                             <textarea
                                 name="message"
+                                placeholder="Message"
                                 value={formData.message}
                                 onChange={handleChange}
                                 rows="5"
@@ -88,14 +84,8 @@ const handleSubmit = (e) => {
                 </div>
                 <div className="body-content">
                     <ul>
-                        <h1> content header test</h1>
-                        <p>Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            Vestibulum sollicitudin, metus sit amet vehicula commodo, 
-                            lectus lectus vehicula purus, nec dapibus risus dolor at nisi. 
-                            Suspendisse et iaculis magna, sed malesuada est. 
-                            Nunc vestibulum laoreet tempus.</p>
-                        <p>Will be a button with link soon</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.649648774871!2d-79.54379042398716!3d43.84236187109374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f4b21b97b7b%3A0x87a6830532b2fcfc!2sCanada&#39;s%20Wonderland!5e0!3m2!1sen!2sca!4v1760625917832!5m2!1sen!2sca" 
+                        width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </ul>
                 </div>
             </section>
