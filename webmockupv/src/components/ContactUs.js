@@ -14,19 +14,34 @@ const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
 
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      subject: "",
-      message: "",
-    });
+    try {
+        const response = await fetch('/contact.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+        });
 
-    alert("Thank you for your message!");
+        if (response.ok) {
+            setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            subject: "",
+            message: "",
+            });
+
+            console.log("message sent successfully");
+        } else {
+            console.error("Failed to send message");
+        }
+    } catch (err) {
+        console.error('Error:', err);
+    }
+        
+        
   };
     return (
         <div>

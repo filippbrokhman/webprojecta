@@ -7,7 +7,7 @@ const Projects = () => {
             <section className="body-text-white" style={{paddingTop: 80}}>
                 <div className="body-content-container">
                     <ul>
-                        <h2> Services</h2>
+                        <h2> Projects</h2>
                         <p>Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. 
                             Vestibulum sollicitudin, metus sit amet vehicula commodo, 
@@ -29,15 +29,14 @@ const Projects = () => {
             </section>
             <section className="body-text-blue">
                 <div className="body-content-container">
-                    <h2>THE BEST SOLUTION TO YOUR
-                        PERSONAL WINDOW NEEDS
+                    <h2>Here's what we can do for you
                     </h2>
                 </div>
             </section>
             <section className="body-variant-white">
                 <div className="body-content">
                     <ul>
-                        <h1> Service 1</h1>
+                        <h1> Project Example 1</h1>
                         <p>Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. 
                             Vestibulum sollicitudin, metus sit amet vehicula commodo, 
@@ -59,7 +58,7 @@ const Projects = () => {
             <section className="body-variant-white">
                 <div className="body-content">
                     <ul>
-                        <h1> Service 2</h1>
+                        <h1> Project Example 2</h1>
                         <p>Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. 
                             Vestibulum sollicitudin, metus sit amet vehicula commodo, 
@@ -81,7 +80,7 @@ const Projects = () => {
             <section className="body-variant-white">
                 <div className="body-content">
                     <ul>
-                        <h1> Service 3</h1>
+                        <h1> Project Example 3</h1>
                         <p>Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. 
                             Vestibulum sollicitudin, metus sit amet vehicula commodo, 
